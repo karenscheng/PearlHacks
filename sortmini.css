@@ -1,0 +1,172 @@
+body{
+background-color: #329932;
+}
+
+
+#return_button{
+position: absolute;
+left: 575px;
+top: 70px;
+}
+
+/* 
+#div1{
+    position: absolute;
+    bottom: 330px;
+    height: 200px;
+    left: 60px;
+    width: 200px;
+}
+
+#div2{
+    position: absolute;
+    bottom: 330px;
+    height: 200px;
+    left: 60px;
+    width: 200px;
+}
+
+#div3{
+    position: absolute;
+    bottom: 330px;
+    height: 200px;
+    left: 60px;
+    width: 200px;
+}
+
+#div4{
+    position: absolute;
+    bottom: 330px;
+    height: 200px;
+    left: 60px;
+    width: 200px;
+}
+ */
+
+#basket1{
+    position: absolute;
+    top: 380px;
+    height: 200px;
+    left: 60px;
+    width: auto;
+}
+
+#basket2{
+    position: absolute;
+    top: 80px; 
+    left: 380px;
+    height: 200px;
+    width: auto;
+}
+
+#basket3{
+    position: absolute;
+    top: 80px;
+    left: 685px;
+    height: 200px;
+    width: auto;
+}
+
+#basket4{
+    position: absolute;
+    top: 80px;
+    left: 1000px;
+    height: 200px;
+    width: auto;
+}
+
+#pink{
+    position: absolute;
+    top: 70px;
+    height: 50px;
+    left: 140px;
+    width: auto;
+}
+
+#yellow{
+    position: absolute;
+    top: 70px;
+    left: 450px;
+    height: 50px;
+    width: auto;
+}
+
+#white{
+    position: absolute;
+    top: 70px;
+    left: 760px;
+    height: 50px;
+    width: auto;
+}
+
+#purple{
+    position: absolute;
+    top: 70px;
+    left: 1070px;
+    height: 50px;
+    width: auto;
+}
+
+#drag1{
+    position: absolute;
+    top: 330px;
+    height: 100px;
+    left: 560px;
+    width: auto;
+}
+
+#drag2{
+    position: absolute;
+    top: 500px;
+    height: 100px;
+    left: 1060px;
+    width: auto;
+}
+
+#drag3{
+    position: absolute;
+    top: 500px;
+    height: 100px;
+    left: 60px;
+    width: auto;
+}
+
+#drag4{
+    position: absolute;
+    top: 300px;
+    height: 100px;
+    left: 1000px;
+    width: auto;
+}
+
+#drag5{
+    position: absolute;
+    top: 450px;
+    height: 100px;
+    left: 360px;
+    width: auto;
+}
+
+#drag6{
+    position: absolute;
+    top: 370px;
+    height: 100px;
+    left: 650px;
+    width: auto;
+}
+
+#drag7{
+    position: absolute;
+    top: 330px;
+    height: 100px;
+    left: 170px;
+    width: auto;
+}
+
+#drag8{
+    position: absolute;
+    top: 460px;
+    height: 100px;
+    left: 760px;
+    width: auto;
+}

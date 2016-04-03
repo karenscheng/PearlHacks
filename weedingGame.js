@@ -38,3 +38,7 @@ function weed5_onclick(){
 	score++;
 	document.getElementById("score").textContent=score;
 }
+
+function return_onclick(){
+    window.location.href="startpage.html";   
+}

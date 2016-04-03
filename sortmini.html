@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel='stylesheet' type='text/css' href='sortmini.css'/>
+ <link rel="shortcut icon" href="zinnar_favicon.ico" />
+        <script src="sortmini.js"></script>
+<style>
+#div1, #div2, #div3, #div4
+{float:left; width:200px; height:150px; margin:45px;padding:10px;border:1px solid #aaaaaa;}
+</style>
+</head>
+
+<body>
+<center>Oh no! Your flowers spilled!</center>
+        <center>Sort the flowers by dragging them into the right boxes to collect droplets!</center>
+        <center>Learning is important for a strong brain!</center>
+        
+        <!--boxes-->
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        	<div id="div1-basket" ></div>
+        </div>
+        
+		<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<div id="div2-basket" ></div>
+		</div>
+		<div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<div id="div3-basket" ></div>
+		</div>
+		<div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<div id="div4-basket" ></div>
+		</div>
+		
+		<!--return button-->
+        <div id = "controls">
+            <button id="return_button" onclick="return return_onclick()">Return to garden</button>
+            </div>
+            
+        <!--baskets-->    
+        <!-- 
+<div id="baskets" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="https://cdn0.rubylane.com/shops/antiqueinvestments/3588.1L.jpg" id="basket1">
+            <img src="https://cdn0.rubylane.com/shops/antiqueinvestments/3588.1L.jpg" id="basket2">
+            <img src="https://cdn0.rubylane.com/shops/antiqueinvestments/3588.1L.jpg" id="basket3">
+            <img src="https://cdn0.rubylane.com/shops/antiqueinvestments/3588.1L.jpg" id="basket4">
+            </div>
+ -->
+
+            
+        <!--mini flowers-->    
+        <div id="types">
+            <img src="http://data.whicdn.com/images/69514692/large.png" id="pink">
+            <img src="http://pre07.deviantart.net/b8ce/th/pre/i/2015/148/c/6/png_flower_transparent_background_by_opinionatedb-d8v4spi.png" id="yellow">
+            <img src="http://www.fabiovisentin.com/docs/Image/rose/wild-rose-transparent-isolated.png" id="white">
+            <img src="http://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Flowers-PNG/Large_Transparent_Purple_Violet_Flower_PNG_Clipart.png?m=1380664800" id="purple">
+    	</div>
+    	
+    	<!--big flowers to be sorted-->
+    	<br>
+    	<img id="drag1" src="http://data.whicdn.com/images/69514692/large.png" draggable="true" ondragstart="drag(event)" width="auto" height="100">
+    	<img id="drag2" src="http://data.whicdn.com/images/69514692/large.png" draggable="true" ondragstart="drag(event)" width="auto" height="100">
+    	<img id="drag3" src="http://pre07.deviantart.net/b8ce/th/pre/i/2015/148/c/6/png_flower_transparent_background_by_opinionatedb-d8v4spi.png" draggable="true" ondragstart="drag(event)" width="auto" height="100">
+    	<img id="drag4" src="http://pre07.deviantart.net/b8ce/th/pre/i/2015/148/c/6/png_flower_transparent_background_by_opinionatedb-d8v4spi.png" draggable="true" ondragstart="drag(event)" width="auto" height="100">
+    	<img id="drag5" src="http://www.fabiovisentin.com/docs/Image/rose/wild-rose-transparent-isolated.png" draggable="true" ondragstart="drag(event)" width="auto" height="100">
+    	<img id="drag6" src="http://www.fabiovisentin.com/docs/Image/rose/wild-rose-transparent-isolated.png" draggable="true" ondragstart="drag(event)" width="auto" height="100">
+    	<img id="drag7" src="http://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Flowers-PNG/Large_Transparent_Purple_Violet_Flower_PNG_Clipart.png?m=1380664800" draggable="true" ondragstart="drag(event)" width="auto" height="100">
+    	<img id="drag8" src="http://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Flowers-PNG/Large_Transparent_Purple_Violet_Flower_PNG_Clipart.png?m=1380664800" draggable="true" ondragstart="drag(event)" width="auto" height="100">
+    
+
+</body>
+</html>

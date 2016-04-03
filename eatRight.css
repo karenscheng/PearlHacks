@@ -1,0 +1,88 @@
+#return_button{
+position: absolute;
+left: 575px;
+top: 70px;
+}
+
+#sky{
+    position: absolute;
+    height: auto;
+    width: 1300px;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+#sun1{
+ position: absolute;
+	top: 450px;
+	left: 750px;
+	height: 100px;
+	width: auto;
+}
+#sun2{
+ position: absolute;
+	top: 40px;
+	left: 70px;
+	height: 100px;
+	width: auto;
+}
+#sun3{
+ position: absolute;
+	top: 240px;
+	left: 1000px;
+	height: 100px;
+	width: auto;
+}
+
+#basket{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	height: 100px;
+	width: auto;
+}
+
+#tomato1{
+ position: absolute;
+	top: 45px;
+	left: 350px;
+	height: 100px;
+	width: auto;
+}
+#tomato2{
+ position: absolute;
+	top: 140px;
+	left: 710px;
+	height: 100px;
+	width: auto;
+}
+#tomato3{
+ position: absolute;
+	top: 40px;
+	left: 800px;
+	height: 100px;
+	width: auto;
+}
+
+#eggplant1{
+ position: absolute;
+	top: 345px;
+	left: 150px;
+	height: 100px;
+	width: auto;
+}
+#eggplant2{
+ position: absolute;
+	top: 440px;
+	left: 600px;
+	height: 100px;
+	width: auto;
+}
+#eggplant3{
+ position: absolute;
+	top: 140px;
+	left: 80px;
+	height: 100px;
+	width: auto;
+}

@@ -1,0 +1,28 @@
+body{
+    background-color: lightblue;   
+}
+
+h1{
+ color: darkgreen;
+ font-family: Verdana;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+h2{
+    color: green;
+    font-family: Verdana;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#back_button{
+    position: absolute;
+    left: 600px;
+    top: 10px;
+}

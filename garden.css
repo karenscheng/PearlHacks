@@ -1,0 +1,31 @@
+body{
+    background-color: #329932;   
+}
+
+h1{
+    color: #ffffff;
+    font-family: Verdana;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#start_button{
+    position: absolute;
+    left: 575px;
+    top: 140px;
+}
+
+#instructions{
+    position: absolute;
+    left: 640px;
+    top: 140px;
+}
+
+#flower_border{
+    width: 1250px;
+    height: auto;
+    position: absolute;
+    top: 150;
+}
